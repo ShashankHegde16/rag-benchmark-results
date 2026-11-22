@@ -1,0 +1,4 @@
+huggingface_hub==2.4.0
+ir-measures==0.4.3
+pyarrow==26.0.1
+pytrec-eval-terrier==0.5.11
