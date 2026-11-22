@@ -1,0 +1,74 @@
+{
+  "data_files": {
+    "musique.json": "98ed4e21d3076532f6388d42320fb809599c63a0d8dffca8ece5e41922be6b46",
+    "musique_corpus.json": "73157a03ce3f0b1a5673dd5dc12bb970c24976dbffc688af9eecdd758c97ffcb",
+    "2wikimultihopqa.json": "895cba294064df0c3302c76847b1fc08d99b5619f7663dfaa3b65cd780f1cac4",
+    "2wikimultihopqa_corpus.json": "9d6e352952aafb18dab22bf8195039461321a44a949df902ae83bce134ad238a",
+    "hotpotqa.json": "3ad9c0bcbf93f41d7004ca6007049c904d2605046b314a2f7ecfb379c64cba6d",
+    "hotpotqa_corpus.json": "9333647b922382776cd2cb02893b390d77984df85a91bfa8be411284978aca7d",
+    "enterprise-rag-bench/questions/test.parquet": "e25066f4eff3843dd0f3df0d1348113471e072e75007ffe390a0aa83f2a80af2"
+  },
+  "results": {
+    "musique/graph": {
+      "questions": 1000,
+      "labeled_questions": 1000,
+      "recall@2": 0.66275,
+      "recall@5": 0.856,
+      "recall@10": 0.91391667,
+      "exact_match": 0.578,
+      "f1": 0.69576799
+    },
+    "musique/no-graph": {
+      "questions": 1000,
+      "labeled_questions": 1000,
+      "recall@2": 0.64258333,
+      "recall@5": 0.81941667,
+      "recall@10": 0.871,
+      "exact_match": 0.546,
+      "f1": 0.65733549
+    },
+    "2wikimultihopqa/graph": {
+      "questions": 1000,
+      "labeled_questions": 1000,
+      "recall@2": 0.8545,
+      "recall@5": 0.98325,
+      "recall@10": 0.9855,
+      "exact_match": 0.711,
+      "f1": 0.79841575
+    },
+    "2wikimultihopqa/no-graph": {
+      "questions": 1000,
+      "labeled_questions": 1000,
+      "recall@2": 0.84325,
+      "recall@5": 0.956,
+      "recall@10": 0.9575,
+      "exact_match": 0.673,
+      "f1": 0.74933073
+    },
+    "hotpotqa/graph": {
+      "questions": 1000,
+      "labeled_questions": 1000,
+      "recall@2": 0.9325,
+      "recall@5": 0.9895,
+      "recall@10": 0.995,
+      "exact_match": 0.696,
+      "f1": 0.83386137
+    },
+    "hotpotqa/no-graph": {
+      "questions": 1000,
+      "labeled_questions": 1000,
+      "recall@2": 0.9265,
+      "recall@5": 0.983,
+      "recall@10": 0.989,
+      "exact_match": 0.69,
+      "f1": 0.81946487
+    },
+    "enterprise-rag-bench/no-graph": {
+      "questions": 500,
+      "labeled_questions": 470,
+      "recall@2": 0.73059355,
+      "recall@5": 0.80407717,
+      "recall@10": 0.84123438
+    }
+  }
+}
